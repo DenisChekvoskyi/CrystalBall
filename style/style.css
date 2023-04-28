@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 576px;
+  padding: 0 15px;
+}
+
+body {
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(65, 124, 129, 0.0033263305322128733) 100%
+  );
+}
+
+footer {
+  padding: 20px 40px;
+}
+
+.header {
+  margin: 0 0 20px 0;
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  color: #19191b;
+}
+
+.descr {
+  margin: 0 0 20px 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #56597a;
+}
+
+.footer-descr {
+  font-weight: 400;
+  font-size: 16px;
+  color: #696871;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.ball {
+  display: block;
+  margin: 0 auto;
+  width: 320px;
+  cursor: pointer;
+}
+
+.ball-block {
+  position: relative;
+  width: 320px;
+  margin: 0 auto;
+}
+
+.ball-res {
+  cursor: pointer;
+  position: absolute;
+  width: 150px;
+  max-height: 60px;
+  top: 150px;
+  left: 87px;
+  user-select: none;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+
+  color: #1d293f;
+}
+
+.fadeIn {
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
